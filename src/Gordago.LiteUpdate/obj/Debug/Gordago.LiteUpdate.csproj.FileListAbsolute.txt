@@ -1,0 +1,7 @@
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.LiteUpdate\obj\Debug\Gordago.LiteUpdate.UpdateForm.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.LiteUpdate\obj\Debug\Gordago.LiteUpdate.csproj.GenerateResource.Cache
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.LiteUpdate\Gordago.LiteUpdate.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.LiteUpdate\Gordago.LiteUpdate.pdb
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.LiteUpdate\obj\Debug\Gordago.LiteUpdate.csprojResolveAssemblyReference.cache
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.LiteUpdate\obj\Debug\Gordago.LiteUpdate.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.LiteUpdate\obj\Debug\Gordago.LiteUpdate.pdb

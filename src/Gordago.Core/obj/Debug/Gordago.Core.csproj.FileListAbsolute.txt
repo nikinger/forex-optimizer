@@ -1,0 +1,4 @@
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.Core\Gordago.Core.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.Core\Gordago.Core.pdb
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.Core\obj\Debug\Gordago.Core.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.Core\obj\Debug\Gordago.Core.pdb

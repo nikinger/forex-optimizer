@@ -1,0 +1,20 @@
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.ForexOptimizer.csprojResolveAssemblyReference.cache
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.ForexOptimizer.csproj.GenerateResource.Cache
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.AboutBox.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.Charting.ChartDocument.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.Instruments.CodeEditorDocument.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.Instruments.IndicatorsWindow.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.Instruments.NewInstrumentsForm.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.MainForm.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.Instruments.CodeEditor.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.PropertiesWindow.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.Properties.Resources.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\Gordago.FO.Quotes.QuotesWindow.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.ForexOptimizer\bin\ForexOptimizer.exe.config
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.ForexOptimizer\bin\ForexOptimizer.exe
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.ForexOptimizer\bin\ForexOptimizer.pdb
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\ForexOptimizer.exe
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\ForexOptimizer.pdb
+C:\Users\Nike\Desktop\ДОК_ПРОГ\Gordago_2.8\forex-optimizer\bin\Gordago.ForexOptimizer\bin\ForexOptimizer.exe.config
+C:\Users\Nike\Desktop\ДОК_ПРОГ\Gordago_2.8\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\ForexOptimizer.exe
+C:\Users\Nike\Desktop\ДОК_ПРОГ\Gordago_2.8\forex-optimizer\src\Gordago.ForexOptimizer\obj\Debug\ForexOptimizer.pdb

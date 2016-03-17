@@ -1,0 +1,5 @@
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.DockManager\obj\Debug\Gordago.DockManager.csprojResolveAssemblyReference.cache
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.DockManager\Gordago.DockManager.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.DockManager\Gordago.DockManager.pdb
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.DockManager\obj\Debug\Gordago.DockManager.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.DockManager\obj\Debug\Gordago.DockManager.pdb

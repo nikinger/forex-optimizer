@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{456941FB-8144-46FD-8046-4BF9D14B99FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gordago.FO</RootNamespace>
+    <AssemblyName>ForexOptimizer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Gordago.ForexOptimizer\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Gordago.ForexOptimizer\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gordago.Trader">
+      <HintPath>.\Gordago.Trader.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>.\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpDevelop.Dom">
+      <HintPath>.\ICSharpCode.SharpDevelop.Dom.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.TextEditor">
+      <HintPath>.\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\ChartDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\ChartDocument.Designer.cs">
+      <DependentUpon>ChartDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\ChartDocumentKey.cs" />
+    <Compile Include="Charting\ChartManager.cs" />
+    <Compile Include="Docking\ExtDockManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\ITabbedDocument.cs" />
+    <Compile Include="Instruments\BuildManager.cs" />
+    <Compile Include="Instruments\CodeCompletionProvider.cs" />
+    <Compile Include="Instruments\CodeEditorDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instruments\CodeEditorDocument.Designer.cs">
+      <DependentUpon>CodeEditorDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instruments\CodeEditorDocumentKey.cs" />
+    <Compile Include="FilesManager.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Instruments\HostCallbackImplementation.cs" />
+    <Compile Include="Instruments\IndicatorItem.cs" />
+    <Compile Include="Instruments\Indicators\IndicatorsManager.cs" />
+    <Compile Include="Instruments\Indicators\IndicatorsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instruments\Indicators\IndicatorsWindow.Designer.cs">
+      <DependentUpon>IndicatorsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instruments\InstrumentType.cs" />
+    <Compile Include="Instruments\NewInstrumentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instruments\NewInstrumentsForm.Designer.cs">
+      <DependentUpon>NewInstrumentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instruments\ProjectsManager.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\AppAction.cs" />
+    <Compile Include="Docking\AppMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\AppToolStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Instruments\CodeEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Instruments\CodeEditorLang.cs" />
+    <Compile Include="PropertiesService\PropertiesManager.cs" />
+    <Compile Include="PropertiesService\PropertiesWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertiesService\PropertiesWindow.Designer.cs">
+      <DependentUpon>PropertiesWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\ChartDocument.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChartDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instruments\CodeEditorDocument.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CodeEditorDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instruments\Indicators\IndicatorsWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IndicatorsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instruments\NewInstrumentsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewInstrumentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instruments\CodeEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CodeEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertiesService\PropertiesWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PropertiesWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotes\QuotesWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QuotesWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Quotes\QuotesManager.cs" />
+    <Compile Include="Quotes\QuotesWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotes\QuotesWindow.Designer.cs">
+      <DependentUpon>QuotesWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetupInfo.cs" />
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TablesManager.cs" />
+    <Compile Include="Updates\AppUpdateManager.cs" />
+    <Compile Include="Updates\HelpManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gordago.Core\Gordago.Core.csproj">
+      <Project>{89F29EE1-0512-41E6-A11D-4AB90ED741C0}</Project>
+      <Name>Gordago.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gordago.DockManager\Gordago.DockManager.csproj">
+      <Project>{EAB6E9D8-43CE-444F-9B2B-FC43BF45FF8A}</Project>
+      <Name>Gordago.DockManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gordago.LiteUpdate\Gordago.LiteUpdate.csproj">
+      <Project>{812C3410-AF31-4A74-855F-2793DD1320B9}</Project>
+      <Name>Gordago.LiteUpdate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForexOptimizerSplash.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProjectNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

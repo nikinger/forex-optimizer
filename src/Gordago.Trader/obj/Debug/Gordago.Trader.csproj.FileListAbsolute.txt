@@ -1,0 +1,5 @@
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.Trader\Gordago.Trader.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.Trader\Gordago.Trader.pdb
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.Trader\obj\Debug\Gordago.Trader.csprojResolveAssemblyReference.cache
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.Trader\obj\Debug\Gordago.Trader.dll
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.Trader\obj\Debug\Gordago.Trader.pdb

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LiteUpdate.Develop.Setup">
+</Property><Property Name="Файл решения" Value="C:\Users\Nike\Desktop\Новая папка\forex-optimizer\setup\LiteUpdate.Develop\LiteUpdate.Develop.Setup.sln">
+</Property><Property Name="Date" Value="13 марта 2016 г.">
+</Property><Property Name="Time" Value="23:10">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LiteUpdate.Develop.Setup.sln" Description="Успешно создана резервная копия файла C:\Users\Nike\Desktop\Новая папка (2)\Backup\LiteUpdate.Develop.Setup.sln">
+</Event><Event ErrorLevel="0" Project="LiteUpdate.Develop.vdproj" Source="LiteUpdate.Develop.vdproj" Description="Резервная копия файла проекта сохранена под именем C:\Users\Nike\Desktop\Новая папка (2)\Backup\LiteUpdate.Develop.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="LiteUpdate.Develop.Setup.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="LiteUpdate.Develop.Setup.sln" Description="Converted">
+</Event></UpgradeLog>

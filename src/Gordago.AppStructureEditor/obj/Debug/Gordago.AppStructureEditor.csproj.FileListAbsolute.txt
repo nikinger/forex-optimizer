@@ -1,0 +1,10 @@
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.AppStructureEditor\AppStructureEditor.exe
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\bin\Gordago.AppStructureEditor\AppStructureEditor.pdb
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\Gordago.AppStructureEditor.AboutBox.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\Gordago.AppStructureEditor.MainForm.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\Gordago.AppStructureEditor.Projects.OpenProjectForm.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\Gordago.AppStructureEditor.Projects.ProjectForm.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\Gordago.AppStructureEditor.Properties.Resources.resources
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\Gordago.AppStructureEditor.csproj.GenerateResource.Cache
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\AppStructureEditor.exe
+C:\Users\Nike\Desktop\Новая папка\forex-optimizer\src\Gordago.AppStructureEditor\obj\Debug\AppStructureEditor.pdb

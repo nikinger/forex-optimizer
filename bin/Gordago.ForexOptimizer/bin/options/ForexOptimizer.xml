@@ -1,0 +1,46 @@
+﻿<PropertiesService version="1.0">
+  <Types>
+    <El index="0" t="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <El index="1" t="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <El index="2" t="System.String[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <El index="3" t="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  </Types>
+  <Pp n="RootProperties">
+    <Vv>
+      <El n="Language" t="0" v="en-US" />
+      <El n="LastDir" t="0" v="C:\Users\Nike\Desktop\ДОК_ПРОГ\Gordago_2.8\forex-optimizer\bin\Gordago.ForexOptimizer\bin\Instruments" />
+    </Vv>
+    <Pp n="Tables">
+      <Pp n="QuotesWindow._dataGridView">
+        <Pp n="ColumsWidth">
+          <Vv>
+            <El n="_dgvColSymbolName" t="1" v="100" />
+            <El n="_dgvColBid" t="1" v="100" />
+            <El n="_dgvColAsk" t="1" v="100" />
+          </Vv>
+        </Pp>
+      </Pp>
+    </Pp>
+    <Pp n="RecentFiles">
+      <Vv>
+        <El n="Files" t="2">
+          <Ar v="C:\Users\Nike\Desktop\ДОК_ПРОГ\Gordago_2.8\forex-optimizer\bin\Gordago.ForexOptimizer\bin\Instruments\Indicators\MA_2000.cs" />
+        </El>
+      </Vv>
+    </Pp>
+    <Pp n="Updates">
+      <Vv>
+        <El n="Auto" t="3" v="True" />
+      </Vv>
+      <Pp n="Proxy">
+        <Vv>
+          <El n="Enable" t="3" v="False" />
+          <El n="Server" t="0" v="" />
+          <El n="Port" t="1" v="0" />
+          <El n="UserName" t="0" v="" />
+          <El n="UserPassword" t="0" v="" />
+        </Vv>
+      </Pp>
+    </Pp>
+  </Pp>
+</PropertiesService>
